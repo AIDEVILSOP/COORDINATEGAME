@@ -40,16 +40,15 @@ var level = 0;
 var q_a = [
     [null, 0, 0],
     ["locate 5,8", 5, 8],
-    ["Find the coordinates of the point which divides the line segment joining the points (8,4) and (4,2) into two equal parts.", 6,3],
+    ["locate (6-2+5),(7-2-3+4) " , 9, 6],
+    ["Find the coordinates of the point which divides the line segment joining the points (8,4) and (4,2) into two equal parts. HINT :- coordinates of the point => x=(x1+x2)/2 , y=(y1+y2)/2 ", 6,3],
     ["Find the coordinates of a point which is 8 units right to the origin located on the x axis",8,0],
-    ["Find the coordinates of the point which divides the line segment joining the points (5,2) and (5,6) in the ratio 3:1 internally" , 5, 5],
-    ["Find a point on the y axis which is equidistant from the points p(6,5) and q(-4,3)" , 0, 9],
-    ["The  vertices of a triangle are (1,4), (5,2) and (3,6) . Let the coordinates of the centroid be (x,y) , then locate (x,y)" , 3, 4],
-    [" Let the ratio in which the line 2x+y-4=0 divides the line segment joining the points A(2,-2) and B (3,7) be p:q then locate (p,q)." , 2, 9],
-    ["If A(3,0) , B(x,y),  C (-1,4) and D (-2,-1) taken in order are the vertices of a rhombus. Then locate the vertice B (x,y)." , 4, 5],
-    ["The points A (2,9) , B (p,5) and C (5,5) are the vertices of a triangle ABC right angled at B. Then find the value of p and locate vertice B." ,2,5],
+    ["Find a point on the y axis which is equidistant from the points p(6,5) and q(-4,3) Hint :- Use distance formula  " , 0, 9],
+    ["The  vertices of a triangle are (1,4), (5,2) and (3,6) . Let the coordinates of the centroid be (x,y) , then locate (x,y) Hint :- coordinates of the centroid => x = (x1+x2+x3)/3 , y = (y1+y2+y3)/3"  , 3, 4],
+    ["If A(3,0) , B(x,y),  C (-1,4) and D (-2,-1) taken in order are the vertices of a rhombus. Then locate the vertice B (x,y). Hint :- coordinates of the point => x = sum of x coordinates of adjacents sides - x coordinate of opposite side , y = sum of y coordinates of adjacent sides - y coordinate of opposite side"  , 4, 5],
+    ["The points A (2,9) , B (p,5) and C (5,5) are the vertices of a triangle ABC right angled at B. Then find the value of p and locate vertice B. Hint :- Use Distance formula and Pythogoras theorem " ,2,5],
     ["If the points A(4,3)&B(x,5)  are on the circle with centre O(2,3)  then find the value of x and locate the point B " , 2, 5],
-    ["If orthocentre of a triangle is (6,3) and centroid is (2,5) then find the circumcentre of the triangle" , 0, 6],
+    ["If A(0,0) , B(x,y),  C (3,3) and D (0,3) taken in order are the vertices of a square. Then locate the vertice B (x,y)" , 3, 0],
 ];
 
 function give_up() {
