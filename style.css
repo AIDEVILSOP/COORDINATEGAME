@@ -77,7 +77,7 @@ body{
 .btn {
     border: 0.3vw solid grey;
     width: 18vw;
-    margin: 0vw auto 0 auto;
+    margin: 0.5vw auto 0 auto;
     display: block;
     box-sizing: border-box;
     background-color: springgreen;
@@ -104,7 +104,7 @@ body{
 }
 
 #title{
-    margin:0vw 0vw;
+    margin:0.3vw 0vw;
     font-size:2vw;
     text-transform: uppercase;
     color:rgb(32, 32, 210);
@@ -112,14 +112,28 @@ body{
 
 #ques{
     display: none;
+}
+#ques h2{
     font-size:1.6vw;
+    font-weight: 400;
+}
+#ques h3{
+    font-size:1.5vw;
+    font-weight: 100;
 }
 #levelnum {
     display: none;
     font-size:1.7vw;
     text-transform: uppercase;
 }
-
+#subpic{
+    width: 2vw;
+    height: 2vw;
+    position: absolute;
+    left:-0.5vw;
+    bottom:-0.5vw;
+    display: none;
+}
 #c_w {
     visibility: hidden;
     text-transform: uppercase;
